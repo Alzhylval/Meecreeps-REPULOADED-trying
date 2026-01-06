@@ -1,0 +1,30 @@
+1.3.1:
+- Fixed a problem with the MeeCreeps being incredibly stupid. They didn't know how to do anything
+
+1.3.0:
+- Depends on McJtyLib 3.5.0!
+- Fixed a potential crash with portals in some rare cases
+
+1.2.3:
+- Bugfix with storing the correct player with actions that are ongoing while the world is saved
+- Protection for working around crashes with blocks that report they are leaves but don't support DECAYABLE
+- Needs McJtyLib 3.1.0
+- Some cleanups
+
+1.2.2:
+- WARNING: Do not load any worlds with MeeCreeps 1.2.1 or earlier if you last saved them with MeeCreeps 1.2.2 or later!
+- Joseph fixed log warnings due to tile entities being registered with names like "minecraft:meecreeps_portalblock" instead of "meecreeps:portalblock".
+- Fixed a typo in fake player name which might cause some issues with other mods (perhaps Mine Colonies)
+
+1.2.1:
+- Aemande added support for Menril torches from Integrated Dynamics
+- Improved performance for meecreeps trying to follow the player accross dimensions
+- When a meecreep cannot be found for some time it will remove the action now. This should prevent actions from staying around forever and possibly eating system resources
+
+1.2.0:
+- Made compatible with the latest McJtyLib (3.0.0)
+- Make usages of fakeplayer more sane. This might solve some issues in combination with FTB Utilities
+
+1.2.0alpha:
+- Made compatible with the latest McJtyLib (3.0.0)
+- Make usages of fakeplayer more sane. This might solve some issues in combination with FTB Utilities
